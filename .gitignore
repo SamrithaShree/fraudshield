@@ -1,0 +1,13 @@
+__pycache__/
+# Node
+node_modules/
+dist/
+
+# Python
+_pycache_/
+*.pyc
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
