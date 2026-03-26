@@ -1,13 +1,27 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-# Node
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Frontend
 node_modules/
 dist/
+.eslintcache
 
-# Python
-_pycache_/
-*.pyc
-venv/
-
-# OS
-.DS_Store
-Thumbs.db
+# Logs and databases
+*.log
+*.sqlite
